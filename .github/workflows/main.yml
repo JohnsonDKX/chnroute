@@ -1,4 +1,4 @@
-name: Auto CT-CMCC
+name: Auto PBR
 
 on:
   workflow_dispatch:
