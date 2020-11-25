@@ -1,0 +1,123 @@
+name: Auto CT-CMCC
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-cn: ubuntu-18.04
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: download cidr
+      run: |
+      	mkdir -p ./pbr
+      	cd ./pbr
+        #电信
+		wget --no-check-certificate -c https://ispip.clang.cn/chinatelecom_cidr.txt
+		#联通
+		wget --no-check-certificate -c https://ispip.clang.cn/unicom_cnc_cidr.txt
+		#移动
+		wget --no-check-certificate -c https://ispip.clang.cn/cmcc_cidr.txt
+		#铁通
+		wget --no-check-certificate -c https://ispip.clang.cn/crtc_cidr.txt
+		#教育网
+		wget --no-check-certificate -c https://ispip.clang.cn/cernet_cidr.txt
+		#长城宽带/鹏博士
+		wget --no-check-certificate -c https://ispip.clang.cn/gwbn_cidr.txt
+		#其他
+		wget --no-check-certificate -c https://ispip.clang.cn/othernet_cidr.txt
+
+		{
+		echo "/ip route rule"
+		nets=`cat ct.txt`
+		for net in $nets ; do
+  			echo "add dst-address=$net action=lookup table=CT"
+		done
+
+		nets=`cat cnc.txt`
+		for net in $nets ; do
+		  echo "add dst-address=$net action=lookup table=CT"
+		done
+
+		nets=`cat cmcc.txt`
+		for net in $nets ; do
+		  echo "add dst-address=$net action=lookup table=CMCC"
+		done
+
+		nets=`cat crtc.txt`
+		for net in $nets ; do
+		  echo "add dst-address=$net action=lookup table=CT"
+		done
+
+		nets=`cat cernet.txt`
+		for net in $nets ; do
+		  echo "add dst-address=$net action=lookup table=CT"
+		done
+
+		nets=`cat gwbn.txt`
+		for net in $nets ; do
+		  echo "add dst-address=$net action=lookup table=CT"
+		done
+
+		nets=`cat other.txt`
+		for net in $nets ; do
+		  echo "add dst-address=$net action=lookup table=CT"
+		done
+		} > ../ros-pbr-CT-CMCC.rsc
+
+		{
+		echo "/ip firewall address-list"
+
+		nets=`cat /tmp/pbr/ct.txt`
+		for net in $nets ; do
+		  echo "add list=dpbr-CT address=$net"
+		done
+
+		nets=`cat /tmp/pbr/cnc.txt`
+		for net in $nets ; do
+		  echo "add list=dpbr-CT address=$net"
+		done
+
+		nets=`cat /tmp/pbr/cmcc.txt`
+		for net in $nets ; do
+		  echo "add list=dpbr-CMCC address=$net"
+		done
+
+		nets=`cat /tmp/pbr/crtc.txt`
+		for net in $nets ; do
+		  echo "add list=dpbr-CT address=$net"
+		done
+
+		nets=`cat /tmp/pbr/cernet.txt`
+		for net in $nets ; do
+		  echo "add list=dpbr-CT address=$net"
+		done
+
+		nets=`cat /tmp/pbr/gwbn.txt`
+		for net in $nets ; do
+		  echo "add list=dpbr-CT address=$net"
+		done
+
+		nets=`cat /tmp/pbr/other.txt`
+		for net in $nets ; do
+		  echo "add list=dpbr-CT address=$net"
+		done
+		} > ../ros-dpbr-CT-CMCC.rsc 
+
+		cd ..
+		rm -rf ./pbr
+        
+        
+    - name: Commit
+      run: |
+        git config --global user.email jacyl4@gmail.com
+        git config --global user.name jacyl4
+        git add -A
+        git commit -m "Auto PBR" -a
+        
+    - name: Push
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
