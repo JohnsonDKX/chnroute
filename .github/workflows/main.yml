@@ -1,0 +1,28 @@
+name: Auto PBR
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: download cidr
+      run: |
+        chmod +x build_pbr.sh
+        ./build_pbr.sh
+        
+    - name: Commit
+      run: |
+        git config --global user.email jacyl4@gmail.com
+        git config --global user.name jacyl4
+        git add -A
+        git commit -m "Auto PBR" -a
+        
+    - name: Push
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
