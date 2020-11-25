@@ -1,4 +1,4 @@
-name: Auto PBR
+name: build NGINX
 
 on:
   workflow_dispatch:
@@ -10,17 +10,23 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: download cidr
+    - name: Build NGINX
       run: |
-        chmod +x build_pbr.sh
-        ./build_pbr.sh
+        chmod +x nginx_amd64.sh
+        ./nginx_amd64.sh
+        
+    - name: MV
+      run: |
+        mkdir -p ./nginx_amd64
+        mv -f nginx/objs/nginx ./nginx_amd64/nginx_amd64
+        mv -f nginx/conf ./nginx_amd64/
         
     - name: Commit
       run: |
         git config --global user.email jacyl4@gmail.com
         git config --global user.name jacyl4
-        git add -A
-        git commit -m "Auto PBR" -a
+        git add ./nginx_amd64
+        git commit -m "Update nginx_amd64" -a
         
     - name: Push
       uses: ad-m/github-push-action@master
