@@ -1,4 +1,4 @@
-name: AUTO
+name: Build PBR
 
 on:
   workflow_dispatch:
