@@ -3,19 +3,19 @@ mkdir -p ./pbr
 cd ./pbr
 
 #电信
-wget --no-check-certificate -c https://ispip.clang.cn/chinatelecom_cidr.txt
+wget --no-check-certificate -c -O ct.txt https://ispip.clang.cn/chinatelecom_cidr.txt
 #联通
-wget --no-check-certificate -c https://ispip.clang.cn/unicom_cnc_cidr.txt
+wget --no-check-certificate -c -O cnc.txt https://ispip.clang.cn/unicom_cnc_cidr.txt
 #移动
-wget --no-check-certificate -c https://ispip.clang.cn/cmcc_cidr.txt
+wget --no-check-certificate -c -O cmcc.txt https://ispip.clang.cn/cmcc_cidr.txt
 #铁通
-wget --no-check-certificate -c https://ispip.clang.cn/crtc_cidr.txt
+wget --no-check-certificate -c -O crtc.txt https://ispip.clang.cn/crtc_cidr.txt
 #教育网
-wget --no-check-certificate -c https://ispip.clang.cn/cernet_cidr.txt
+wget --no-check-certificate -c -O cernet.txt https://ispip.clang.cn/cernet_cidr.txt
 #长城宽带/鹏博士
-wget --no-check-certificate -c https://ispip.clang.cn/gwbn_cidr.txt
+wget --no-check-certificate -c -O gwbn.txt https://ispip.clang.cn/gwbn_cidr.txt
 #其他
-wget --no-check-certificate -c https://ispip.clang.cn/othernet_cidr.txt
+wget --no-check-certificate -c -O other.txt https://ispip.clang.cn/othernet_cidr.txt
 
 {
 echo "/ip route rule"
