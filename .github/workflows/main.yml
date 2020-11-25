@@ -5,14 +5,14 @@ on:
 
 jobs:
   build:
-    runs-cn: ubuntu-18.04
+    runs-on: ubuntu-18.04
     steps:
     - name: Checkout
       uses: actions/checkout@v2
 
     - name: download cidr
       run: |
-      	chmod +x build_pbr.sh
+        chmod +x build_pbr.sh
         ./build_pbr.sh
         
     - name: Commit
