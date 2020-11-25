@@ -2,7 +2,7 @@
 
 ip段信息取自 https://ispip.clang.cn
 
-每日凌晨2点自动更新于此（如有更新）。
+上海时间每日凌晨1点自动更新于此。
 
 策略路由分流有两种实现方法：
 
@@ -28,6 +28,13 @@ ros script 例子
 
 方法二：
 **ros-dpbr-CT-CMCC.rsc** 是往Firewall - address lists 里生ip段列表。
+```
+/file remove [find name="ros-dpbr-CT-CMCC.rsc"]
+/ip firewall address-list remove [find list="dpbr-CT"]
+/ip firewall address-list remove [find list="dpbr-CMCC"]
+/tool fetch url="https://raw.githubusercontent.com/jacyl4/ros-pbr-CT-CMCC/master/ros-dpbr-CT-CMCC.rsc"
+/import ros-dpbr-CT-CMCC.rsc
+```
 
 这个可以用于Firewall - mangle页，通过dst-addrss= 引用
 
