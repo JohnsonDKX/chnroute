@@ -2,7 +2,7 @@
 
 ip段信息取自 https://ispip.clang.cn
 
-上海时间每日凌晨1点，由Github Action自动更新于此。
+由Github Action自动构建于此。
 
 策略路由分流有两种实现方法：
 
