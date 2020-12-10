@@ -13,6 +13,8 @@ ros script 例子
 
 ```
 /file remove [find name="ros-pbr-CT-CMCC.rsc"]
+/tool fetch url="https://raw.githubusercontent.com/jacyl4/ros-pbr-CT-CMCC/master/ros-pbr-CT-CMCC.rsc"
+:if ([:len [/file find name=ros-pbr-CT-CMCC.rsc]] > 0) do={
 /ip route rule remove [find table=main]
 /ip route rule remove [find table=CT]
 /ip route rule remove [find table=CMCC]
@@ -22,18 +24,20 @@ ros script 例子
 /ip route rule add src-address=10.0.101.2/32 action=lookup table=CT2
 /ip route rule add src-address=10.0.102.2/32 action=lookup table=CT3
 /ip route rule add src-address=10.0.2.2/32 action=lookup table=CMCC
-/tool fetch url="https://raw.githubusercontent.com/jacyl4/ros-pbr-CT-CMCC/master/ros-pbr-CT-CMCC.rsc"
 /import ros-pbr-CT-CMCC.rsc
+}
 ```
 
 方法二：
 **ros-dpbr-CT-CMCC.rsc** 是往Firewall - address lists 里生ip段列表。
 ```
 /file remove [find name="ros-dpbr-CT-CMCC.rsc"]
+/tool fetch url="https://raw.githubusercontent.com/jacyl4/ros-pbr-CT-CMCC/master/ros-dpbr-CT-CMCC.rsc"
+:if ([:len [/file find name=ros-dpbr-CT-CMCC.rsc]] > 0) do={
 /ip firewall address-list remove [find list="dpbr-CT"]
 /ip firewall address-list remove [find list="dpbr-CMCC"]
-/tool fetch url="https://raw.githubusercontent.com/jacyl4/ros-pbr-CT-CMCC/master/ros-dpbr-CT-CMCC.rsc"
 /import ros-dpbr-CT-CMCC.rsc
+}
 ```
 
 这个可以用于Firewall - mangle页，通过dst-addrss= 引用
