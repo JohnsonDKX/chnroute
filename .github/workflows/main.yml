@@ -3,6 +3,7 @@ name: Build PBR
 on:
   schedule:
     - cron: "0 17 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
@@ -13,6 +14,7 @@ jobs:
 
     - name: download cidr
       run: |
+        wget --no-check-certificate -O IPchnroute https://ispip.clang.cn/all_cn_cidr.txt
         chmod +x ros-dpbr-CT-CMCC.sh
         ./ros-dpbr-CT-CMCC.sh
         
