@@ -13,8 +13,8 @@ jobs:
 
     - name: download cidr
       run: |
-        chmod +x build_pbr.sh
-        ./build_pbr.sh
+        chmod +x ros-dpbr-CT-CMCC.sh
+        ./ros-dpbr-CT-CMCC.sh
         
     - name: Commit
       run: |
