@@ -14,8 +14,7 @@ jobs:
 
     - name: download cidr
       run: |
-        wget --no-check-certificate -c -O delegated-apnic-latest http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest
-        grep "apnic|CN|ipv4|" delegated-apnic-latest | awk -F'|' '{print $4"/"32-log($5)/log(2)}' >IPchnroute
+        wget --no-check-certificate -qO- http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest | grep "apnic|CN|ipv4|" | awk -F'|' '{print $4"/"32-log($5)/log(2)}' >IPchnroute
         chmod +x ros-dpbr-CT-CMCC.sh
         ./ros-dpbr-CT-CMCC.sh
         
