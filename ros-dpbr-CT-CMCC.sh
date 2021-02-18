@@ -20,38 +20,31 @@ wget --no-check-certificate -c -O other.txt https://ispip.clang.cn/othernet_cidr
 {
 echo "/ip route rule"
 
-nets=`cat ct.txt`
-for net in $nets ; do
+for net in $(cat ct.txt) ; do
   echo "add dst-address=$net action=lookup table=CT"
 done
 
-nets=`cat cnc.txt`
-for net in $nets ; do
+for net in $(cat cnc.txt) ; do
   echo "add dst-address=$net action=lookup table=CT"
 done
 
-nets=`cat cmcc.txt`
-for net in $nets ; do
+for net in $(cat cmcc.txt) ; do
   echo "add dst-address=$net action=lookup table=CMCC"
 done
 
-nets=`cat crtc.txt`
-for net in $nets ; do
+for net in $(cat crtc.txt) ; do
+  echo "add dst-address=$net action=lookup table=CMCC"
+done
+
+for net in $(cat cernet.txt) ; do
   echo "add dst-address=$net action=lookup table=CT"
 done
 
-nets=`cat cernet.txt`
-for net in $nets ; do
+for net in $(cat gwbn.txt) ; do
   echo "add dst-address=$net action=lookup table=CT"
 done
 
-nets=`cat gwbn.txt`
-for net in $nets ; do
-  echo "add dst-address=$net action=lookup table=CT"
-done
-
-nets=`cat other.txt`
-for net in $nets ; do
+for net in $(cat other.txt) ; do
   echo "add dst-address=$net action=lookup table=CT"
 done
 } > ../ros-pbr-CT-CMCC.rsc 
@@ -60,38 +53,31 @@ done
 {
 echo "/ip firewall address-list"
 
-nets=`cat ct.txt`
-for net in $nets ; do
+for net in $(cat ct.txt) ; do
   echo "add list=dpbr-CT address=$net"
 done
 
-nets=`cat cnc.txt`
-for net in $nets ; do
+for net in $(cat cnc.txt) ; do
   echo "add list=dpbr-CT address=$net"
 done
 
-nets=`cat cmcc.txt`
-for net in $nets ; do
+for net in $(cat cmcc.txt) ; do
   echo "add list=dpbr-CMCC address=$net"
 done
 
-nets=`cat crtc.txt`
-for net in $nets ; do
+for net in $(cat crtc.txt) ; do
+  echo "add list=dpbr-CMCC address=$net"
+done
+
+for net in $(cat cernet.txt) ; do
   echo "add list=dpbr-CT address=$net"
 done
 
-nets=`cat cernet.txt`
-for net in $nets ; do
+for net in $(cat gwbn.txt) ; do
   echo "add list=dpbr-CT address=$net"
 done
 
-nets=`cat gwbn.txt`
-for net in $nets ; do
-  echo "add list=dpbr-CT address=$net"
-done
-
-nets=`cat other.txt`
-for net in $nets ; do
+for net in $(cat other.txt) ; do
   echo "add list=dpbr-CT address=$net"
 done
 } > ../ros-dpbr-CT-CMCC.rsc 
