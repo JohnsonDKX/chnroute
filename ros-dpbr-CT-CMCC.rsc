@@ -5520,6 +5520,7 @@ add list=dpbr-CT address=157.119.172.0/22
 add list=dpbr-CT address=157.119.192.0/21
 add list=dpbr-CT address=157.119.240.0/22
 add list=dpbr-CT address=157.119.252.0/22
+add list=dpbr-CT address=158.60.128.0/17
 add list=dpbr-CT address=158.79.0.0/16
 add list=dpbr-CT address=159.27.0.0/16
 add list=dpbr-CT address=159.75.0.0/16

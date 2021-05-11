@@ -5520,6 +5520,7 @@ add dst-address=157.119.172.0/22 action=lookup table=CT
 add dst-address=157.119.192.0/21 action=lookup table=CT
 add dst-address=157.119.240.0/22 action=lookup table=CT
 add dst-address=157.119.252.0/22 action=lookup table=CT
+add dst-address=158.60.128.0/17 action=lookup table=CT
 add dst-address=158.79.0.0/16 action=lookup table=CT
 add dst-address=159.27.0.0/16 action=lookup table=CT
 add dst-address=159.75.0.0/16 action=lookup table=CT
