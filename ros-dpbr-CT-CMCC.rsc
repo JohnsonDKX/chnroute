@@ -4904,7 +4904,6 @@ add list=dpbr-CT address=103.230.200.0/21
 add list=dpbr-CT address=103.230.212.0/22
 add list=dpbr-CT address=103.231.16.0/21
 add list=dpbr-CT address=103.231.64.0/21
-add list=dpbr-CT address=103.231.144.0/22
 add list=dpbr-CT address=103.231.180.0/22
 add list=dpbr-CT address=103.231.184.0/22
 add list=dpbr-CT address=103.231.244.0/22
