@@ -4309,7 +4309,6 @@ add dst-address=103.126.100.0/22 action=lookup table=CT
 add dst-address=103.126.124.0/22 action=lookup table=CT
 add dst-address=103.126.128.0/21 action=lookup table=CT
 add dst-address=103.126.208.0/22 action=lookup table=CT
-add dst-address=103.126.241.0/24 action=lookup table=CT
 add dst-address=103.129.52.0/22 action=lookup table=CT
 add dst-address=103.130.132.0/22 action=lookup table=CT
 add dst-address=103.130.152.0/24 action=lookup table=CT
@@ -4613,6 +4612,7 @@ add dst-address=103.170.134.0/23 action=lookup table=CT
 add dst-address=103.170.210.0/23 action=lookup table=CT
 add dst-address=103.170.212.0/23 action=lookup table=CT
 add dst-address=103.171.32.0/23 action=lookup table=CT
+add dst-address=103.171.166.0/23 action=lookup table=CT
 add dst-address=103.192.8.0/21 action=lookup table=CT
 add dst-address=103.192.16.0/20 action=lookup table=CT
 add dst-address=103.192.128.0/22 action=lookup table=CT
