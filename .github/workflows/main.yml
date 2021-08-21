@@ -14,7 +14,9 @@ jobs:
 
     - name: download cidr
       run: |
-        wget --no-check-certificate -qO- http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest | grep "apnic|CN|ipv4|" | awk -F'|' '{print $4"/"32-log($5)/log(2)}' >IPchnroute
+        wget --no-check-certificate -cqO- http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest | grep "apnic|CN|ipv4|" | awk -F'|' '{print $4"/"32-log($5)/log(2)}' >IPchnroute
+        md5sum IPchnroute | awk '{print$1}' >IPchnroute.md5
+        
         chmod +x ros-dpbr-CT-CMCC.sh
         ./ros-dpbr-CT-CMCC.sh
         
@@ -22,10 +24,12 @@ jobs:
       run: |
         git config --global user.email jacyl4@gmail.com
         git config --global user.name jacyl4
+        git init
         git add .
-        git commit -m "Auto PBR" -a
+        git commit -am "Auto PBR“
         
     - name: Push
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
