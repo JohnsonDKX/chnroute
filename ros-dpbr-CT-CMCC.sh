@@ -76,7 +76,7 @@ done
 } > ../ros-dpbr-CHN.rsc 
 
 {
-echo "/ip firewall address-list"
+echo "/ipv6 firewall address-list"
 
 for net in $(cat ct_ipv6.txt) ; do
   echo "add list=ctcc_ipv6 address=$net"
@@ -106,6 +106,9 @@ for net in $(cat other_ipv6.txt) ; do
   echo "add list=ctcc_ipv6 address=$net"
 done
 } > ../ros-dpbr-CT-CMCC-IPV6.rsc 
+
+{
+echo "/ipv6 firewall address-list"
 
 for net in $(cat chn_ipv6.txt) ; do
   echo "add list=novpn_ipv6 address=$net"
