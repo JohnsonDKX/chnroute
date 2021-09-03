@@ -17,14 +17,6 @@ jobs:
         chmod +x ros-dpbr-CT-CMCC.sh
         ./ros-dpbr-CT-CMCC.sh
         
-    - name: Commit
-      run: |
-        git config --global user.email dingkx19930215@gmail.com
-        git config --global user.name JohnsonDKX
-        git init
-        git add .
-        git commit -am "Auto PBR"
-        
     - name: Push
       uses: ad-m/github-push-action@master
       with:
