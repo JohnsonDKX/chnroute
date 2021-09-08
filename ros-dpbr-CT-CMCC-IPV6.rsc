@@ -1785,7 +1785,6 @@ add list=ctcc_ipv6 address=2406:d2c0::/32
 add list=ctcc_ipv6 address=2406:d440::/32
 add list=ctcc_ipv6 address=2406:dd00::/32
 add list=ctcc_ipv6 address=2406:dd80::/32
-add list=ctcc_ipv6 address=2406:e280::/32
 add list=ctcc_ipv6 address=2406:e2c0::/32
 add list=ctcc_ipv6 address=2406:e3c0::/32
 add list=ctcc_ipv6 address=2406:e500::/32

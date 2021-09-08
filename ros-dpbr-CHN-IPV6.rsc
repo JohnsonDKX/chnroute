@@ -1733,7 +1733,6 @@ add list=novpn_ipv6 address=2406:de80::/32
 add list=novpn_ipv6 address=2406:df80::/32
 add list=novpn_ipv6 address=2406:e080::/32
 add list=novpn_ipv6 address=2406:e180::/32
-add list=novpn_ipv6 address=2406:e280::/32
 add list=novpn_ipv6 address=2406:e2c0::/32
 add list=novpn_ipv6 address=2406:e380::/32
 add list=novpn_ipv6 address=2406:e3c0::/32
