@@ -1912,6 +1912,7 @@ add list=ctcc_ipv6 address=2407:d8c0::/32
 add list=ctcc_ipv6 address=2407:d980::/32
 add list=ctcc_ipv6 address=2407:d9c0::/32
 add list=ctcc_ipv6 address=2407:da80::/32
+add list=ctcc_ipv6 address=2407:dfc0::/32
 add list=ctcc_ipv6 address=2407:e800::/32
 add list=ctcc_ipv6 address=2407:eb80::/32
 add list=ctcc_ipv6 address=2407:ec80::/32
