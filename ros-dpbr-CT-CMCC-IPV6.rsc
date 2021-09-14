@@ -269,7 +269,6 @@ add list=ctcc_ipv6 address=2001:df3:c680::/48
 add list=ctcc_ipv6 address=2001:df3:d880::/48
 add list=ctcc_ipv6 address=2001:df3:ed80::/48
 add list=ctcc_ipv6 address=2001:df3:ef80::/48
-add list=ctcc_ipv6 address=2001:df4:80::/48
 add list=ctcc_ipv6 address=2001:df4:880::/48
 add list=ctcc_ipv6 address=2001:df4:d80::/48
 add list=ctcc_ipv6 address=2001:df4:1280::/48
