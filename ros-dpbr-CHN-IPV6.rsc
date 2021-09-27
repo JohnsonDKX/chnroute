@@ -1884,7 +1884,9 @@ add list=novpn_ipv6 address=2407:e780::/32
 add list=novpn_ipv6 address=2407:e800::/32
 add list=novpn_ipv6 address=2407:ea80::/32
 add list=novpn_ipv6 address=2407:eb80::/32
+add list=novpn_ipv6 address=2407:ec40::/32
 add list=novpn_ipv6 address=2407:ec80::/32
+add list=novpn_ipv6 address=2407:ecc0::/32
 add list=novpn_ipv6 address=2407:ed80::/32
 add list=novpn_ipv6 address=2407:ee80::/32
 add list=novpn_ipv6 address=2407:ef80::/32
