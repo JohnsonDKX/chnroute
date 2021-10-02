@@ -62,9 +62,6 @@ add list=ctcc_ipv6 address=2406:aac0::/32
 add list=ctcc_ipv6 address=2408:8000::/22
 add list=ctcc_ipv6 address=2408:8400::/22
 add list=ctcc_ipv6 address=2408:8800::/21
-add list=cmcc_ipv6 address=2001:e80::/32
-add list=cmcc_ipv6 address=2409:8000::/20
-add list=cmcc_ipv6 address=2001:e08::/32
 add list=ctcc_ipv6 address=2001:250::/35
 add list=ctcc_ipv6 address=2001:250:2000::/35
 add list=ctcc_ipv6 address=2001:250:4000::/34
