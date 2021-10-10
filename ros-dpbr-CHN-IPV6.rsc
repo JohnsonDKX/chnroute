@@ -109,6 +109,7 @@ add list=novpn_ipv6 address=2001:f88::/32
 add list=novpn_ipv6 address=2001:4438::/32
 add list=novpn_ipv6 address=2001:4510::/29
 add list=novpn_ipv6 address=2400:1040::/32
+add list=novpn_ipv6 address=2400:1160::/32
 add list=novpn_ipv6 address=2400:12c0::/32
 add list=novpn_ipv6 address=2400:1340::/32
 add list=novpn_ipv6 address=2400:1380::/32
