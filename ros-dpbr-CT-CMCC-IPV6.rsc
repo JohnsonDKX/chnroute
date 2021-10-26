@@ -1,7 +1,6 @@
 /ipv6 firewall address-list
 add list=ctcc_ipv6 address=2001:7fa:10::/48
 add list=ctcc_ipv6 address=2001:c68::/32
-add list=ctcc_ipv6 address=2400:3e00::/32
 add list=ctcc_ipv6 address=2400:7680::/32
 add list=ctcc_ipv6 address=2400:9600::/32
 add list=ctcc_ipv6 address=2401:8380::/32
