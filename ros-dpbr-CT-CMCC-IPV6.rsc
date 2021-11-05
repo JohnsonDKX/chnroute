@@ -39,10 +39,12 @@ add list=ctcc_ipv6 address=240e:1000::/20
 add list=ctcc_ipv6 address=240e:2000::/19
 add list=ctcc_ipv6 address=2001:e18::/32
 add list=ctcc_ipv6 address=2001:e88::/32
+add list=ctcc_ipv6 address=2001:f88::/32
 add list=ctcc_ipv6 address=2400:32c0::/32
 add list=ctcc_ipv6 address=2400:7f80::/32
 add list=ctcc_ipv6 address=2401:7700::/32
 add list=ctcc_ipv6 address=2401:9600::/32
+add list=ctcc_ipv6 address=2401:da00::/32
 add list=ctcc_ipv6 address=2402:2d00::/32
 add list=ctcc_ipv6 address=2402:5bc0::/32
 add list=ctcc_ipv6 address=2403:1dc0::/32
