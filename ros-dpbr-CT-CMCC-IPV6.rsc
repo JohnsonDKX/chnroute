@@ -321,7 +321,6 @@ add list=ctcc_ipv6 address=2001:df7:ab00::/48
 add list=ctcc_ipv6 address=2001:df7:e580::/48
 add list=ctcc_ipv6 address=2001:df7:f080::/48
 add list=ctcc_ipv6 address=2001:f38::/32
-add list=ctcc_ipv6 address=2001:f88::/32
 add list=ctcc_ipv6 address=2001:4510::/29
 add list=ctcc_ipv6 address=2400:1040::/32
 add list=ctcc_ipv6 address=2400:1160::/32
@@ -716,7 +715,6 @@ add list=ctcc_ipv6 address=2401:d180::/32
 add list=ctcc_ipv6 address=2401:d2c0::/32
 add list=ctcc_ipv6 address=2401:d340::/32
 add list=ctcc_ipv6 address=2401:d780::/32
-add list=ctcc_ipv6 address=2401:da00::/32
 add list=ctcc_ipv6 address=2401:de00::/32
 add list=ctcc_ipv6 address=2401:e080::/32
 add list=ctcc_ipv6 address=2401:e0c0::/32
