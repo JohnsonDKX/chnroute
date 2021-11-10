@@ -1663,6 +1663,7 @@ add list=ctcc_ipv6 address=2406:6080::/32
 add list=ctcc_ipv6 address=2406:6100::/32
 add list=ctcc_ipv6 address=2406:6180::/32
 add list=ctcc_ipv6 address=2406:61c0::/30
+add list=ctcc_ipv6 address=2406:61c4::/30
 add list=ctcc_ipv6 address=2406:6280::/32
 add list=ctcc_ipv6 address=2406:6300::/32
 add list=ctcc_ipv6 address=2406:6340::/32
