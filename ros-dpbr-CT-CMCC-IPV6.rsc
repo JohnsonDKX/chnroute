@@ -780,7 +780,6 @@ add list=ctcc_ipv6 address=2402:3ac0::/32
 add list=ctcc_ipv6 address=2402:3c00::/32
 add list=ctcc_ipv6 address=2402:3e00::/32
 add list=ctcc_ipv6 address=2402:3ec0::/32
-add list=ctcc_ipv6 address=2402:3f40::/32
 add list=ctcc_ipv6 address=2402:3f80::/32
 add list=ctcc_ipv6 address=2402:4140::/32
 add list=ctcc_ipv6 address=2402:42c0::/32
