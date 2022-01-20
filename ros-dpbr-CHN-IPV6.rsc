@@ -1334,7 +1334,6 @@ add list=novpn_ipv6 address=2405:57c0::/32
 add list=novpn_ipv6 address=2405:5880::/32
 add list=novpn_ipv6 address=2405:5980::/32
 add list=novpn_ipv6 address=2405:5a80::/32
-add list=novpn_ipv6 address=2405:5b00::/32
 add list=novpn_ipv6 address=2405:5b80::/32
 add list=novpn_ipv6 address=2405:5c80::/32
 add list=novpn_ipv6 address=2405:5cc0::/32
