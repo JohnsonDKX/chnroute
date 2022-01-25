@@ -250,6 +250,7 @@ add list=ctcc_ipv6 address=2001:df0:26c0::/48
 add list=ctcc_ipv6 address=2001:df0:2d80::/48
 add list=ctcc_ipv6 address=2001:df0:2e80::/48
 add list=ctcc_ipv6 address=2001:df0:4500::/48
+add list=ctcc_ipv6 address=2001:df0:59c0::/48
 add list=ctcc_ipv6 address=2001:df0:9a00::/48
 add list=ctcc_ipv6 address=2001:df0:b180::/48
 add list=ctcc_ipv6 address=2001:df0:bf80::/48
