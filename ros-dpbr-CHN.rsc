@@ -5571,7 +5571,10 @@ add list=novpn address=118.26.64.0/19
 add list=novpn address=118.26.96.0/21
 add list=novpn address=118.26.112.0/21
 add list=novpn address=118.26.120.0/21
-add list=novpn address=118.26.128.0/20
+add list=novpn address=118.26.128.0/22
+add list=novpn address=118.26.133.0/24
+add list=novpn address=118.26.134.0/23
+add list=novpn address=118.26.136.0/21
 add list=novpn address=118.26.160.0/20
 add list=novpn address=118.26.188.0/22
 add list=novpn address=118.26.192.0/18
