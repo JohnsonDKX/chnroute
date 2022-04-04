@@ -35,6 +35,7 @@ add list=novpn_ipv6 address=2001:df0:4500::/48
 add list=novpn_ipv6 address=2001:df0:59c0::/48
 add list=novpn_ipv6 address=2001:df0:85c0::/48
 add list=novpn_ipv6 address=2001:df0:8d40::/48
+add list=novpn_ipv6 address=2001:df0:9d40::/48
 add list=novpn_ipv6 address=2001:df0:b180::/48
 add list=novpn_ipv6 address=2001:df0:bf80::/48
 add list=novpn_ipv6 address=2001:df0:d880::/48

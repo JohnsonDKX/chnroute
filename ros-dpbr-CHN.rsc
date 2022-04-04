@@ -4165,6 +4165,7 @@ add list=novpn address=103.184.46.0/23
 add list=novpn address=103.184.60.0/23
 add list=novpn address=103.185.78.0/23
 add list=novpn address=103.185.80.0/23
+add list=novpn address=103.185.228.0/23
 add list=novpn address=103.192.0.0/22
 add list=novpn address=103.192.4.0/22
 add list=novpn address=103.192.8.0/22
