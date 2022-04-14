@@ -1162,7 +1162,6 @@ add list=novpn_ipv6 address=2404:5640::/32
 add list=novpn_ipv6 address=2404:5a80::/32
 add list=novpn_ipv6 address=2404:5b00::/32
 add list=novpn_ipv6 address=2404:5d00::/32
-add list=novpn_ipv6 address=2404:5e80::/32
 add list=novpn_ipv6 address=2404:6000::/32
 add list=novpn_ipv6 address=2404:6100::/32
 add list=novpn_ipv6 address=2404:6380::/32
@@ -1498,7 +1497,6 @@ add list=novpn_ipv6 address=2406:7c0::/32
 add list=novpn_ipv6 address=2406:840::/32
 add list=novpn_ipv6 address=2406:880::/32
 add list=novpn_ipv6 address=2406:8c0::/32
-add list=novpn_ipv6 address=2406:9c0::/32
 add list=novpn_ipv6 address=2406:d80::/32
 add list=novpn_ipv6 address=2406:e80::/32
 add list=novpn_ipv6 address=2406:f80::/32
