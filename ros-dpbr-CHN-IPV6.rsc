@@ -240,6 +240,7 @@ add list=novpn_ipv6 address=2400:6f40::/32
 add list=novpn_ipv6 address=2400:6f80::/32
 add list=novpn_ipv6 address=2400:6fc0::/32
 add list=novpn_ipv6 address=2400:7040::/32
+add list=novpn_ipv6 address=2400:70a0::/32
 add list=novpn_ipv6 address=2400:7100::/32
 add list=novpn_ipv6 address=2400:7140::/32
 add list=novpn_ipv6 address=2400:71c0::/32
