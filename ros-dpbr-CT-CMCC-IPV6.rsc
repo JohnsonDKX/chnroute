@@ -461,6 +461,7 @@ add list=ctcc_ipv6 address=2400:72c0::/32
 add list=ctcc_ipv6 address=2400:72e0::/32
 add list=ctcc_ipv6 address=2400:7340::/32
 add list=ctcc_ipv6 address=2400:73c0::/32
+add list=ctcc_ipv6 address=2400:73e0::/32
 add list=ctcc_ipv6 address=2400:7440::/32
 add list=ctcc_ipv6 address=2400:74c0::/32
 add list=ctcc_ipv6 address=2400:7540::/32
