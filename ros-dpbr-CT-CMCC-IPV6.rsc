@@ -480,6 +480,8 @@ add list=ctcc_ipv6 address=2400:8200::/32
 add list=ctcc_ipv6 address=2400:82c0::/32
 add list=ctcc_ipv6 address=2400:8580::/32
 add list=ctcc_ipv6 address=2400:8600::/32
+add list=ctcc_ipv6 address=2400:86a0::/32
+add list=ctcc_ipv6 address=2400:86e0::/32
 add list=ctcc_ipv6 address=2400:8780::/32
 add list=ctcc_ipv6 address=2400:87c0::/32
 add list=ctcc_ipv6 address=2400:8840::/32
