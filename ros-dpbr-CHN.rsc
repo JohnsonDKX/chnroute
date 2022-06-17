@@ -5400,6 +5400,7 @@ add list=novpn address=114.141.64.0/21
 add list=novpn address=114.141.80.0/22
 add list=novpn address=114.141.84.0/22
 add list=novpn address=114.141.128.0/18
+add list=novpn address=114.142.136.0/21
 add list=novpn address=114.196.0.0/15
 add list=novpn address=114.198.248.0/21
 add list=novpn address=114.208.0.0/14
