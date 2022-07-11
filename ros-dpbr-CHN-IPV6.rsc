@@ -291,6 +291,7 @@ add list=novpn_ipv6 address=2400:8fc0::/32
 add list=novpn_ipv6 address=2400:9020::/32
 add list=novpn_ipv6 address=2400:9040::/32
 add list=novpn_ipv6 address=2400:9340::/32
+add list=novpn_ipv6 address=2400:93e0::/32
 add list=novpn_ipv6 address=2400:9580::/32
 add list=novpn_ipv6 address=2400:95c0::/32
 add list=novpn_ipv6 address=2400:9600::/32
