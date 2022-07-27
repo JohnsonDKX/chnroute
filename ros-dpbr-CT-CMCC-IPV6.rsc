@@ -508,6 +508,7 @@ add list=ctcc_ipv6 address=2400:95e0::/32
 add list=ctcc_ipv6 address=2400:9620::/32
 add list=ctcc_ipv6 address=2400:98c0::/32
 add list=ctcc_ipv6 address=2400:9960::/32
+add list=ctcc_ipv6 address=2400:99e0::/32
 add list=ctcc_ipv6 address=2400:9a00::/32
 add list=ctcc_ipv6 address=2400:9e00::/32
 add list=ctcc_ipv6 address=2400:a040::/32
