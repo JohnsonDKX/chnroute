@@ -519,6 +519,7 @@ add list=ctcc_ipv6 address=2400:a420::/32
 add list=ctcc_ipv6 address=2400:a480::/32
 add list=ctcc_ipv6 address=2400:a5a0::/32
 add list=ctcc_ipv6 address=2400:a6a0::/32
+add list=ctcc_ipv6 address=2400:a6e0::/32
 add list=ctcc_ipv6 address=2400:a780::/32
 add list=ctcc_ipv6 address=2400:a8c0::/32
 add list=ctcc_ipv6 address=2400:a900::/32
