@@ -322,6 +322,7 @@ add list=novpn_ipv6 address=2400:a980::/32
 add list=novpn_ipv6 address=2400:a981::/32
 add list=novpn_ipv6 address=2400:a982::/31
 add list=novpn_ipv6 address=2400:a984::/30
+add list=novpn_ipv6 address=2400:a9a0::/32
 add list=novpn_ipv6 address=2400:abc0::/32
 add list=novpn_ipv6 address=2400:ae00::/32
 add list=novpn_ipv6 address=2400:b200::/32
