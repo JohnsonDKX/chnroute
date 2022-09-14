@@ -922,7 +922,6 @@ add list=novpn_ipv6 address=2403:4b40::/32
 add list=novpn_ipv6 address=2403:4b80::/32
 add list=novpn_ipv6 address=2403:4c80::/32
 add list=novpn_ipv6 address=2403:4cc0::/32
-add list=novpn_ipv6 address=2403:4d40::/32
 add list=novpn_ipv6 address=2403:4d80::/32
 add list=novpn_ipv6 address=2403:4ec0::/32
 add list=novpn_ipv6 address=2403:5040::/32
