@@ -1948,6 +1948,7 @@ add list=novpn_ipv6 address=240a:c000::/20
 add list=novpn_ipv6 address=240b:2000::/22
 add list=novpn_ipv6 address=240b:6000::/20
 add list=novpn_ipv6 address=240b:8000::/21
+add list=novpn_ipv6 address=240b:a000::/25
 add list=novpn_ipv6 address=240c::/28
 add list=novpn_ipv6 address=240c:4000::/22
 add list=novpn_ipv6 address=240c:8000::/21
