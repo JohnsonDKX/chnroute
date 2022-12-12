@@ -1425,7 +1425,6 @@ add list=novpn_ipv6 address=2405:8b80::/32
 add list=novpn_ipv6 address=2405:8c80::/32
 add list=novpn_ipv6 address=2405:8d80::/32
 add list=novpn_ipv6 address=2405:8e80::/32
-add list=novpn_ipv6 address=2405:8f40::/32
 add list=novpn_ipv6 address=2405:8f80::/32
 add list=novpn_ipv6 address=2405:9080::/32
 add list=novpn_ipv6 address=2405:9180::/32
