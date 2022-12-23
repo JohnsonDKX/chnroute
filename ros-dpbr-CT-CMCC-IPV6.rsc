@@ -101,6 +101,7 @@ add list=ctcc_ipv6 address=2403:ac00::/32
 add list=ctcc_ipv6 address=2403:d400::/32
 add list=ctcc_ipv6 address=2406:280::/32
 add list=ctcc_ipv6 address=240a:a000::/20
+add list=ctcc_ipv6 address=240b:e000::/26
 add list=ctcc_ipv6 address=240c:c000::/20
 add list=ctcc_ipv6 address=240d:4000::/21
 add list=ctcc_ipv6 address=2001:4438::/32
