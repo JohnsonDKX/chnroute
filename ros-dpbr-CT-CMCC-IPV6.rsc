@@ -51,7 +51,6 @@ add list=ctcc_ipv6 address=2403:1dc0::/32
 add list=ctcc_ipv6 address=2403:4280::/32
 add list=ctcc_ipv6 address=2403:6d80::/32
 add list=ctcc_ipv6 address=2403:c480::/32
-add list=ctcc_ipv6 address=2403:e500::/32
 add list=ctcc_ipv6 address=2403:ed00::/32
 add list=ctcc_ipv6 address=2404:3480::/32
 add list=ctcc_ipv6 address=2404:3700::/32
@@ -1199,6 +1198,7 @@ add list=ctcc_ipv6 address=2403:d9c0::/32
 add list=ctcc_ipv6 address=2403:dac0::/32
 add list=ctcc_ipv6 address=2403:db00::/32
 add list=ctcc_ipv6 address=2403:e300::/32
+add list=ctcc_ipv6 address=2403:e500::/32
 add list=ctcc_ipv6 address=2403:e640::/32
 add list=ctcc_ipv6 address=2403:e700::/32
 add list=ctcc_ipv6 address=2403:e7c0::/32
