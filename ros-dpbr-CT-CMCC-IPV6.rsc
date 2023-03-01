@@ -677,7 +677,6 @@ add list=ctcc_ipv6 address=2401:4b00::/32
 add list=ctcc_ipv6 address=2401:4f80::/32
 add list=ctcc_ipv6 address=2401:5180::/32
 add list=ctcc_ipv6 address=2401:5680::/32
-add list=ctcc_ipv6 address=2401:56c0::/32
 add list=ctcc_ipv6 address=2401:59c0::/32
 add list=ctcc_ipv6 address=2401:5b40::/32
 add list=ctcc_ipv6 address=2401:5c80::/32
