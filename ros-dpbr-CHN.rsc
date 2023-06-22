@@ -6455,9 +6455,9 @@ add list=novpn address=183.192.0.0/10
 add list=novpn address=185.203.36.0/22
 add list=novpn address=188.131.128.0/17
 add list=novpn address=192.51.188.0/24
-add list=novpn address=192.55.46.0/24
+add list=novpn address=192.55.46.0/23
 add list=novpn address=192.55.68.0/22
-add list=novpn address=192.102.204.0/23
+add list=novpn address=192.102.204.0/22
 add list=novpn address=192.124.154.0/24
 add list=novpn address=192.140.128.0/22
 add list=novpn address=192.140.132.0/22
