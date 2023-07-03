@@ -1761,9 +1761,8 @@ add list=novpn address=61.28.64.0/18
 add list=novpn address=61.29.128.0/18
 add list=novpn address=61.29.192.0/19
 add list=novpn address=61.29.224.0/20
-add list=novpn address=61.29.240.0/21
+add list=novpn address=61.29.240.0/22
 add list=novpn address=61.29.248.0/22
-add list=novpn address=61.29.254.0/23
 add list=novpn address=61.45.128.0/18
 add list=novpn address=61.45.224.0/20
 add list=novpn address=61.47.128.0/18
