@@ -437,6 +437,7 @@ add list=novpn_ipv6 address=2401:1320::/32
 add list=novpn_ipv6 address=2401:13a0::/32
 add list=novpn_ipv6 address=2401:15c0::/32
 add list=novpn_ipv6 address=2401:18c0::/32
+add list=novpn_ipv6 address=2401:18e0::/28
 add list=novpn_ipv6 address=2401:1940::/32
 add list=novpn_ipv6 address=2401:19c0::/32
 add list=novpn_ipv6 address=2401:1a40::/32
