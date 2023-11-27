@@ -1235,6 +1235,7 @@ add list=ctcc_ipv6 address=2403:fc40::/32
 add list=ctcc_ipv6 address=2403:fe40::/32
 add list=ctcc_ipv6 address=2403:fec0::/32
 add list=ctcc_ipv6 address=2403:ffc0::/32
+add list=ctcc_ipv6 address=2403:ffc1::/32
 add list=ctcc_ipv6 address=2404:100::/32
 add list=ctcc_ipv6 address=2404:158::/32
 add list=ctcc_ipv6 address=2404:240::/32
