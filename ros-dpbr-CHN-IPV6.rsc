@@ -758,7 +758,6 @@ add list=novpn_ipv6 address=2402:a680::/32
 add list=novpn_ipv6 address=2402:a6c0::/32
 add list=novpn_ipv6 address=2402:a840::/32
 add list=novpn_ipv6 address=2402:a880::/32
-add list=novpn_ipv6 address=2402:a9c0::/32
 add list=novpn_ipv6 address=2402:aa80::/32
 add list=novpn_ipv6 address=2402:ab80::/32
 add list=novpn_ipv6 address=2402:ae00::/32
