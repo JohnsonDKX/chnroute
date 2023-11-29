@@ -6629,6 +6629,7 @@ add list=novpn address=202.38.135.0/24
 add list=novpn address=202.38.136.0/23
 add list=novpn address=202.38.140.0/23
 add list=novpn address=202.38.142.0/23
+add list=novpn address=202.38.146.0/23
 add list=novpn address=202.38.149.0/24
 add list=novpn address=202.38.150.0/23
 add list=novpn address=202.38.152.0/23
