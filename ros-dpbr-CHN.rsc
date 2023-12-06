@@ -8269,6 +8269,7 @@ add list=novpn address=210.79.64.0/18
 add list=novpn address=210.79.224.0/19
 add list=novpn address=210.82.0.0/15
 add list=novpn address=210.87.72.0/23
+add list=novpn address=210.87.114.0/23
 add list=novpn address=210.87.128.0/20
 add list=novpn address=210.87.144.0/20
 add list=novpn address=210.87.160.0/19
