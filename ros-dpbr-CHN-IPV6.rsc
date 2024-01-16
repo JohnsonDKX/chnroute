@@ -512,6 +512,7 @@ add list=novpn_ipv6 address=2401:7340::/32
 add list=novpn_ipv6 address=2401:7360::/32
 add list=novpn_ipv6 address=2401:73a0::/32
 add list=novpn_ipv6 address=2401:7580::/32
+add list=novpn_ipv6 address=2401:7660::/32
 add list=novpn_ipv6 address=2401:7680::/32
 add list=novpn_ipv6 address=2401:7700::/32
 add list=novpn_ipv6 address=2401:7780::/32
