@@ -93,7 +93,7 @@ add list=ctcc_ipv6 address=2400:a984::/30
 add list=ctcc_ipv6 address=2400:d0c0::/32
 add list=ctcc_ipv6 address=2401:34a0::/32
 add list=ctcc_ipv6 address=2401:34a1::/32
-add list=ctcc_ipv6 address=2401:34a2::/31
+add list=ctcc_ipv6 address=2401:9b20::/31
 add list=ctcc_ipv6 address=2401:cc00::/32
 add list=ctcc_ipv6 address=2401:ec00::/32
 add list=ctcc_ipv6 address=2402:2000::/32
@@ -764,6 +764,7 @@ add list=ctcc_ipv6 address=2401:98c0::/32
 add list=ctcc_ipv6 address=2401:9a00::/32
 add list=ctcc_ipv6 address=2401:9ac0::/32
 add list=ctcc_ipv6 address=2401:9b40::/32
+add list=ctcc_ipv6 address=2401:9b60::/32
 add list=ctcc_ipv6 address=2401:9bc0::/32
 add list=ctcc_ipv6 address=2401:9dc0::/32
 add list=ctcc_ipv6 address=2401:9e40::/32
