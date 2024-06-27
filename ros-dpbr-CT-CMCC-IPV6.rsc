@@ -791,6 +791,8 @@ add list=ctcc_ipv6 address=2401:a9a0::/32
 add list=ctcc_ipv6 address=2401:aa00::/32
 add list=ctcc_ipv6 address=2401:aa20::/32
 add list=ctcc_ipv6 address=2401:aa40::/32
+add list=ctcc_ipv6 address=2401:ab60::/32
+add list=ctcc_ipv6 address=2401:aba0::/32
 add list=ctcc_ipv6 address=2401:acc0::/32
 add list=ctcc_ipv6 address=2401:ad40::/32
 add list=ctcc_ipv6 address=2401:adc0::/32
