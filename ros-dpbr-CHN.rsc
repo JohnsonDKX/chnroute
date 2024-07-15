@@ -6254,6 +6254,7 @@ add list=novpn address=160.22.246.0/23
 add list=novpn address=160.25.10.0/23
 add list=novpn address=160.25.12.0/23
 add list=novpn address=160.25.20.0/23
+add list=novpn address=160.25.194.0/23
 add list=novpn address=160.202.60.0/22
 add list=novpn address=160.202.148.0/22
 add list=novpn address=160.202.152.0/22
