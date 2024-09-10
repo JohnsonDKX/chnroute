@@ -665,7 +665,6 @@ add list=novpn_ipv6 address=2401:ffc0::/32
 add list=novpn_ipv6 address=2402:440::/32
 add list=novpn_ipv6 address=2402:5c0::/32
 add list=novpn_ipv6 address=2402:840::/32
-add list=novpn_ipv6 address=2402:ac0::/32
 add list=novpn_ipv6 address=2402:e00::/32
 add list=novpn_ipv6 address=2402:fc0::/32
 add list=novpn_ipv6 address=2402:1000::/32
