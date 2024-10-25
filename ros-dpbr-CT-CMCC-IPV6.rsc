@@ -834,6 +834,7 @@ add list=ctcc_ipv6 address=2401:ce00::/32
 add list=ctcc_ipv6 address=2401:cf40::/32
 add list=ctcc_ipv6 address=2401:cfc0::/32
 add list=ctcc_ipv6 address=2401:cfe0::/32
+add list=ctcc_ipv6 address=2401:d060::/32
 add list=ctcc_ipv6 address=2401:d0c0::/32
 add list=ctcc_ipv6 address=2401:d140::/32
 add list=ctcc_ipv6 address=2401:d180::/32
