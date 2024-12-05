@@ -649,6 +649,7 @@ add list=novpn_ipv6 address=2401:da00::/32
 add list=novpn_ipv6 address=2401:dbe0::/32
 add list=novpn_ipv6 address=2401:dd20::/32
 add list=novpn_ipv6 address=2401:dd60::/32
+add list=novpn_ipv6 address=2401:dde0::/32
 add list=novpn_ipv6 address=2401:de00::/32
 add list=novpn_ipv6 address=2401:e080::/32
 add list=novpn_ipv6 address=2401:e0c0::/32
