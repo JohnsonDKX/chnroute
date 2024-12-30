@@ -3780,7 +3780,6 @@ add list=novpn address=103.133.128.0/22
 add list=novpn address=103.133.136.0/22
 add list=novpn address=103.133.176.0/22
 add list=novpn address=103.133.232.0/22
-add list=novpn address=103.134.12.0/24
 add list=novpn address=103.134.196.0/22
 add list=novpn address=103.134.232.0/23
 add list=novpn address=103.135.80.0/22
