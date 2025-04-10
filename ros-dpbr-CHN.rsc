@@ -6325,6 +6325,7 @@ add list=novpn address=163.223.178.0/23
 add list=novpn address=163.223.216.0/23
 add list=novpn address=163.223.222.0/23
 add list=novpn address=163.227.34.0/23
+add list=novpn address=163.227.40.0/23
 add list=novpn address=163.228.0.0/16
 add list=novpn address=164.52.0.0/17
 add list=novpn address=166.111.0.0/16
