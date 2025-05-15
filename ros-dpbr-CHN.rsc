@@ -8670,7 +8670,8 @@ add list=novpn address=223.112.0.0/14
 add list=novpn address=223.116.0.0/15
 add list=novpn address=223.120.128.0/17
 add list=novpn address=223.121.128.0/17
-add list=novpn address=223.123.128.0/17
+add list=novpn address=223.123.208.0/20
+add list=novpn address=223.123.224.0/19
 add list=novpn address=223.124.0.0/14
 add list=novpn address=223.128.0.0/15
 add list=novpn address=223.144.0.0/12
