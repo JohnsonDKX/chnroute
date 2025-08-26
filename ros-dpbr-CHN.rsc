@@ -746,6 +746,7 @@ add list=novpn address=101.52.232.0/23
 add list=novpn address=101.52.236.0/22
 add list=novpn address=101.52.240.0/20
 add list=novpn address=101.53.100.0/22
+add list=novpn address=101.55.21.0/24
 add list=novpn address=101.64.0.0/13
 add list=novpn address=101.72.0.0/14
 add list=novpn address=101.76.0.0/15
@@ -1240,7 +1241,7 @@ add list=novpn address=103.150.212.0/24
 add list=novpn address=103.151.5.0/24
 add list=novpn address=103.151.148.0/23
 add list=novpn address=103.151.216.0/23
-add list=novpn address=103.151.228.0/24
+add list=novpn address=103.151.228.0/23
 add list=novpn address=103.152.28.0/23
 add list=novpn address=103.152.56.0/23
 add list=novpn address=103.152.76.0/23
@@ -1860,6 +1861,7 @@ add list=novpn address=114.112.208.0/20
 add list=novpn address=114.113.63.0/24
 add list=novpn address=114.113.64.0/20
 add list=novpn address=114.113.80.0/22
+add list=novpn address=114.113.84.0/24
 add list=novpn address=114.113.88.0/21
 add list=novpn address=114.113.96.0/19
 add list=novpn address=114.113.144.0/20
@@ -2973,6 +2975,7 @@ add list=novpn address=161.189.0.0/16
 add list=novpn address=161.207.0.0/16
 add list=novpn address=162.14.0.0/16
 add list=novpn address=162.105.0.0/16
+add list=novpn address=162.141.4.0/24
 add list=novpn address=163.0.0.0/16
 add list=novpn address=163.47.4.0/22
 add list=novpn address=163.53.44.0/22
