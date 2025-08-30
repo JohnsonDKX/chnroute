@@ -13,6 +13,7 @@ add list=novpn address=1.80.0.0/12
 add list=novpn address=1.116.0.0/15
 add list=novpn address=1.118.2.0/24
 add list=novpn address=1.118.32.0/22
+add list=novpn address=1.118.36.0/24
 add list=novpn address=1.119.0.0/17
 add list=novpn address=1.119.128.0/18
 add list=novpn address=1.119.192.0/20
