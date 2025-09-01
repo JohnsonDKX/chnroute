@@ -1486,6 +1486,7 @@ add list=novpn_ipv6 address=2a14:7581:3400::/47
 add list=novpn_ipv6 address=2a14:7581:9010::/44
 add list=novpn_ipv6 address=2a14:7583:f201::/48
 add list=novpn_ipv6 address=2a14:7583:f203::/48
+add list=novpn_ipv6 address=2a14:7583:f300::/40
 add list=novpn_ipv6 address=2a14:7584::/36
 add list=novpn_ipv6 address=2c0f:f7a8:8011::/48
 add list=novpn_ipv6 address=2c0f:f7a8:8050::/48
