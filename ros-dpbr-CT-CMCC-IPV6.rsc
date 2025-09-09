@@ -1147,6 +1147,7 @@ add list=ctcc_ipv6 address=2403:6a00::/32
 add list=ctcc_ipv6 address=2403:7580::/32
 add list=ctcc_ipv6 address=2403:9b00::/32
 add list=ctcc_ipv6 address=2403:a200::/32
+add list=ctcc_ipv6 address=2403:ad80:101c::/48
 add list=ctcc_ipv6 address=2403:ad80:8008::/48
 add list=ctcc_ipv6 address=2403:b400::/32
 add list=ctcc_ipv6 address=2403:c980::/32
@@ -1278,6 +1279,7 @@ add list=ctcc_ipv6 address=2406:840:fda0::/43
 add list=ctcc_ipv6 address=2406:840:fdc0::/44
 add list=ctcc_ipv6 address=2406:840:fdd1::/48
 add list=ctcc_ipv6 address=2406:840:fde2::/48
+add list=ctcc_ipv6 address=2406:840:fde4::/48
 add list=ctcc_ipv6 address=2406:840:fe27::/48
 add list=ctcc_ipv6 address=2406:840:fe90::/46
 add list=ctcc_ipv6 address=2406:840:fe94::/48
@@ -1363,7 +1365,9 @@ add list=ctcc_ipv6 address=240c:f:1::/48
 add list=ctcc_ipv6 address=240c:4000::/22
 add list=ctcc_ipv6 address=2602:2e0:ff::/48
 add list=ctcc_ipv6 address=2602:f7ee:ee::/48
+add list=ctcc_ipv6 address=2602:f92a:a478::/48
 add list=ctcc_ipv6 address=2602:f92a:d1ff::/48
+add list=ctcc_ipv6 address=2602:f92a:dead::/48
 add list=ctcc_ipv6 address=2602:f92a:e100::/44
 add list=ctcc_ipv6 address=2602:f93b:400::/38
 add list=ctcc_ipv6 address=2602:f9ba:a8::/48
@@ -1520,6 +1524,7 @@ add list=ctcc_ipv6 address=2a13:a5c7:2801::/48
 add list=ctcc_ipv6 address=2a13:a5c7:2803::/48
 add list=ctcc_ipv6 address=2a13:a5c7:3108::/48
 add list=ctcc_ipv6 address=2a13:a5c7:31a0::/43
+add list=ctcc_ipv6 address=2a13:a5c7:3301::/48
 add list=ctcc_ipv6 address=2a13:a5c7:3306::/47
 add list=ctcc_ipv6 address=2a13:aac4:f000::/44
 add list=ctcc_ipv6 address=2a14:7c0:4a01::/48
@@ -1539,9 +1544,7 @@ add list=ctcc_ipv6 address=2a14:67c1:a02f::/48
 add list=ctcc_ipv6 address=2a14:67c1:a040::/47
 add list=ctcc_ipv6 address=2a14:67c1:a061::/48
 add list=ctcc_ipv6 address=2a14:67c1:a064::/48
-add list=ctcc_ipv6 address=2a14:67c1:a090::/46
-add list=ctcc_ipv6 address=2a14:67c1:a094::/47
-add list=ctcc_ipv6 address=2a14:67c1:a096::/48
+add list=ctcc_ipv6 address=2a14:67c1:a090::/45
 add list=ctcc_ipv6 address=2a14:67c1:a099::/48
 add list=ctcc_ipv6 address=2a14:67c1:a100::/43
 add list=ctcc_ipv6 address=2a14:67c1:a125::/48
@@ -1616,6 +1619,10 @@ add list=ctcc_ipv6 address=2a14:7581:9010::/44
 add list=ctcc_ipv6 address=2a14:7583:f201::/48
 add list=ctcc_ipv6 address=2a14:7583:f203::/48
 add list=ctcc_ipv6 address=2a14:7583:f300::/46
+add list=ctcc_ipv6 address=2a14:7583:f304::/48
+add list=ctcc_ipv6 address=2a14:7583:f4fe::/48
 add list=ctcc_ipv6 address=2a14:7583:f500::/48
+add list=ctcc_ipv6 address=2a14:7583:f701::/48
+add list=ctcc_ipv6 address=2a14:7583:f703::/48
 add list=ctcc_ipv6 address=2a14:7583:f743::/48
 add list=ctcc_ipv6 address=2a14:7584::/36
