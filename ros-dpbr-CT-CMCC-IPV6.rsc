@@ -1057,7 +1057,6 @@ add list=ctcc_ipv6 address=2401:8d00:8::/47
 add list=ctcc_ipv6 address=2401:8d00:b::/48
 add list=ctcc_ipv6 address=2401:8d00:c::/48
 add list=ctcc_ipv6 address=2401:8d00:f::/48
-add list=ctcc_ipv6 address=2401:8d00:10::/48
 add list=ctcc_ipv6 address=2401:8d00:12::/48
 add list=ctcc_ipv6 address=2401:8d00:14::/48
 add list=ctcc_ipv6 address=2401:9a00::/44
@@ -1097,6 +1096,7 @@ add list=ctcc_ipv6 address=2402:840:d000::/46
 add list=ctcc_ipv6 address=2402:840:e000::/46
 add list=ctcc_ipv6 address=2402:840:f000::/38
 add list=ctcc_ipv6 address=2402:1440::/32
+add list=ctcc_ipv6 address=2402:1460::/32
 add list=ctcc_ipv6 address=2402:20e0:f000::/48
 add list=ctcc_ipv6 address=2402:3180::/46
 add list=ctcc_ipv6 address=2402:3180:8000::/33
@@ -1279,8 +1279,7 @@ add list=ctcc_ipv6 address=2406:840:fd9f::/48
 add list=ctcc_ipv6 address=2406:840:fda0::/43
 add list=ctcc_ipv6 address=2406:840:fdc0::/44
 add list=ctcc_ipv6 address=2406:840:fdd1::/48
-add list=ctcc_ipv6 address=2406:840:fde4::/48
-add list=ctcc_ipv6 address=2406:840:fde6::/48
+add list=ctcc_ipv6 address=2406:840:fde7::/48
 add list=ctcc_ipv6 address=2406:840:fe27::/48
 add list=ctcc_ipv6 address=2406:840:fe90::/46
 add list=ctcc_ipv6 address=2406:840:fe94::/48
@@ -1357,6 +1356,7 @@ add list=ctcc_ipv6 address=240a:41b8:8800::/40
 add list=ctcc_ipv6 address=240a:41b8:a000::/40
 add list=ctcc_ipv6 address=240a:41b8:d400::/40
 add list=ctcc_ipv6 address=240a:4224:9000::/44
+add list=ctcc_ipv6 address=240a:4224:a000::/44
 add list=ctcc_ipv6 address=240a:4224:d000::/44
 add list=ctcc_ipv6 address=240a:4224:e000::/44
 add list=ctcc_ipv6 address=240a:c000::/20
@@ -1412,6 +1412,7 @@ add list=ctcc_ipv6 address=2a09:b280:ff83::/48
 add list=ctcc_ipv6 address=2a09:b280:ff84::/47
 add list=ctcc_ipv6 address=2a0a:2840::/30
 add list=ctcc_ipv6 address=2a0a:2845:aab8::/46
+add list=ctcc_ipv6 address=2a0a:2845:d647::/48
 add list=ctcc_ipv6 address=2a0a:2846::/48
 add list=ctcc_ipv6 address=2a0a:6040:ec00::/40
 add list=ctcc_ipv6 address=2a0a:6044:6600::/39
