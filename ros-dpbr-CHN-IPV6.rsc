@@ -199,6 +199,7 @@ add list=novpn_ipv6 address=2401:d180:2120::/48
 add list=novpn_ipv6 address=2401:d920::/48
 add list=novpn_ipv6 address=2401:de00::/32
 add list=novpn_ipv6 address=2401:ec00::/32
+add list=novpn_ipv6 address=2401:f860:7::/48
 add list=novpn_ipv6 address=2401:f860:a::/47
 add list=novpn_ipv6 address=2401:f860:c::/46
 add list=novpn_ipv6 address=2401:f860:86::/47
@@ -416,9 +417,8 @@ add list=novpn_ipv6 address=2406:840:e260::/48
 add list=novpn_ipv6 address=2406:840:e2cf::/48
 add list=novpn_ipv6 address=2406:840:e600::/45
 add list=novpn_ipv6 address=2406:840:e608::/46
-add list=novpn_ipv6 address=2406:840:e621::/48
+add list=novpn_ipv6 address=2406:840:e620::/47
 add list=novpn_ipv6 address=2406:840:e666::/47
-add list=novpn_ipv6 address=2406:840:e720::/44
 add list=novpn_ipv6 address=2406:840:e770::/48
 add list=novpn_ipv6 address=2406:840:e777::/48
 add list=novpn_ipv6 address=2406:840:e80f::/48
@@ -1285,9 +1285,10 @@ add list=novpn_ipv6 address=2a09:54c6:e000::/36
 add list=novpn_ipv6 address=2a09:b280:ff81::/48
 add list=novpn_ipv6 address=2a09:b280:ff83::/48
 add list=novpn_ipv6 address=2a09:b280:ff84::/47
-add list=novpn_ipv6 address=2a0a:2840::/30
+add list=novpn_ipv6 address=2a0a:2840:20::/43
+add list=novpn_ipv6 address=2a0a:2840:2000::/47
+add list=novpn_ipv6 address=2a0a:2842::/32
 add list=novpn_ipv6 address=2a0a:2845:aab8::/46
-add list=novpn_ipv6 address=2a0a:2845:d647::/48
 add list=novpn_ipv6 address=2a0a:2846::/48
 add list=novpn_ipv6 address=2a0a:6040:ec00::/40
 add list=novpn_ipv6 address=2a0a:6044:6600::/39
@@ -1323,6 +1324,7 @@ add list=novpn_ipv6 address=2a0e:aa07:e044::/48
 add list=novpn_ipv6 address=2a0e:aa07:e0e0::/44
 add list=novpn_ipv6 address=2a0e:aa07:e151::/48
 add list=novpn_ipv6 address=2a0e:aa07:e155::/48
+add list=novpn_ipv6 address=2a0e:aa07:e15f::/48
 add list=novpn_ipv6 address=2a0e:aa07:e16a::/48
 add list=novpn_ipv6 address=2a0e:aa07:e1a0::/44
 add list=novpn_ipv6 address=2a0e:aa07:e1e1::/48
@@ -1367,6 +1369,7 @@ add list=novpn_ipv6 address=2a0f:7803:fe82::/48
 add list=novpn_ipv6 address=2a0f:7804:f650::/44
 add list=novpn_ipv6 address=2a0f:7804:f9f0::/44
 add list=novpn_ipv6 address=2a0f:7d07::/32
+add list=novpn_ipv6 address=2a0f:85c1:367::/48
 add list=novpn_ipv6 address=2a0f:85c1:ba5::/48
 add list=novpn_ipv6 address=2a0f:85c1:ca0::/44
 add list=novpn_ipv6 address=2a0f:85c1:ce1::/48
