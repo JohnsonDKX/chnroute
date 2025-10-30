@@ -2607,9 +2607,7 @@ add list=novpn address=123.49.194.0/24
 add list=novpn address=123.49.224.0/24
 add list=novpn address=123.49.229.0/24
 add list=novpn address=123.49.232.0/24
-add list=novpn address=123.49.240.0/22
-add list=novpn address=123.49.244.0/24
-add list=novpn address=123.49.246.0/23
+add list=novpn address=123.49.240.0/21
 add list=novpn address=123.52.0.0/14
 add list=novpn address=123.56.0.0/15
 add list=novpn address=123.58.0.0/19
