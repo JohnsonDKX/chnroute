@@ -1567,6 +1567,7 @@ add list=ctcc_ipv6 address=2a14:67c1:b132::/47
 add list=ctcc_ipv6 address=2a14:67c1:b134::/47
 add list=ctcc_ipv6 address=2a14:67c1:b136::/48
 add list=ctcc_ipv6 address=2a14:67c1:b140::/48
+add list=ctcc_ipv6 address=2a14:67c1:b142::/48
 add list=ctcc_ipv6 address=2a14:67c1:b4a1::/48
 add list=ctcc_ipv6 address=2a14:67c1:b4a8::/47
 add list=ctcc_ipv6 address=2a14:67c1:b4c0::/45
