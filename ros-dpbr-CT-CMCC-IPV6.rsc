@@ -1092,7 +1092,6 @@ add list=ctcc_ipv6 address=2402:6f40:2::/48
 add list=ctcc_ipv6 address=2402:6fc0::/48
 add list=ctcc_ipv6 address=2402:7040::/32
 add list=ctcc_ipv6 address=2402:7d80::/48
-add list=ctcc_ipv6 address=2402:7d80:241::/48
 add list=ctcc_ipv6 address=2402:7d80:8888::/48
 add list=ctcc_ipv6 address=2402:8bc0::/32
 add list=ctcc_ipv6 address=2402:8cc0::/40
@@ -1440,7 +1439,8 @@ add list=ctcc_ipv6 address=2a0e:aa07:e200::/44
 add list=ctcc_ipv6 address=2a0e:aa07:e210::/48
 add list=ctcc_ipv6 address=2a0e:aa07:e21c::/47
 add list=ctcc_ipv6 address=2a0e:aa07:e220::/44
-add list=ctcc_ipv6 address=2a0e:aa07:e280::/45
+add list=ctcc_ipv6 address=2a0e:aa07:e280::/47
+add list=ctcc_ipv6 address=2a0e:aa07:e284::/46
 add list=ctcc_ipv6 address=2a0e:aa07:e288::/46
 add list=ctcc_ipv6 address=2a0e:aa07:e28c::/47
 add list=ctcc_ipv6 address=2a0e:aa07:e28e::/48
@@ -1564,7 +1564,8 @@ add list=ctcc_ipv6 address=2a14:67c1:b100::/46
 add list=ctcc_ipv6 address=2a14:67c1:b105::/48
 add list=ctcc_ipv6 address=2a14:67c1:b107::/48
 add list=ctcc_ipv6 address=2a14:67c1:b110::/48
-add list=ctcc_ipv6 address=2a14:67c1:b130::/46
+add list=ctcc_ipv6 address=2a14:67c1:b130::/48
+add list=ctcc_ipv6 address=2a14:67c1:b132::/47
 add list=ctcc_ipv6 address=2a14:67c1:b134::/48
 add list=ctcc_ipv6 address=2a14:67c1:b136::/48
 add list=ctcc_ipv6 address=2a14:67c1:b140::/46
@@ -1573,7 +1574,6 @@ add list=ctcc_ipv6 address=2a14:67c1:b500::/47
 add list=ctcc_ipv6 address=2a14:67c1:b511::/48
 add list=ctcc_ipv6 address=2a14:67c1:b514::/48
 add list=ctcc_ipv6 address=2a14:67c1:b530::/44
-add list=ctcc_ipv6 address=2a14:67c1:b549::/48
 add list=ctcc_ipv6 address=2a14:67c1:b561::/48
 add list=ctcc_ipv6 address=2a14:67c1:b563::/48
 add list=ctcc_ipv6 address=2a14:67c1:b578::/48
@@ -1646,5 +1646,5 @@ add list=ctcc_ipv6 address=2a14:7586:6105::/48
 add list=ctcc_ipv6 address=2a14:7586:6106::/47
 add list=ctcc_ipv6 address=2a14:7dc0:510::/48
 add list=ctcc_ipv6 address=2a14:7dc0:515::/48
-add list=ctcc_ipv6 address=2a14:7dc0:516::/47
+add list=ctcc_ipv6 address=2a14:7dc0:516::/48
 add list=ctcc_ipv6 address=2a14:7dc0:520::/47
