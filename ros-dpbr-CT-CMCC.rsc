@@ -5372,7 +5372,6 @@ add list=dpbr-CT address=165.101.122.0/23
 add list=dpbr-CT address=167.148.46.0/24
 add list=dpbr-CT address=167.220.244.0/22
 add list=dpbr-CT address=172.81.192.0/18
-add list=dpbr-CT address=174.136.239.0/24
 add list=dpbr-CT address=175.24.0.0/15
 add list=dpbr-CT address=175.27.0.0/16
 add list=dpbr-CT address=175.46.0.0/15
