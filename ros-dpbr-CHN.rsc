@@ -1022,7 +1022,7 @@ add list=novpn address=103.71.232.0/22
 add list=novpn address=103.72.113.0/24
 add list=novpn address=103.72.120.0/22
 add list=novpn address=103.72.172.0/24
-add list=novpn address=103.73.48.0/24
+add list=novpn address=103.73.48.0/23
 add list=novpn address=103.73.116.0/22
 add list=novpn address=103.73.136.0/21
 add list=novpn address=103.73.144.0/22
