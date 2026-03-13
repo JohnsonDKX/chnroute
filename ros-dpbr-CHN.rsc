@@ -1955,6 +1955,7 @@ add list=novpn address=116.198.160.0/20
 add list=novpn address=116.198.176.0/21
 add list=novpn address=116.198.192.0/18
 add list=novpn address=116.199.0.0/17
+add list=novpn address=116.199.156.0/22
 add list=novpn address=116.204.0.0/17
 add list=novpn address=116.205.0.0/16
 add list=novpn address=116.207.0.0/16
@@ -3223,6 +3224,7 @@ add list=novpn address=202.158.160.0/19
 add list=novpn address=202.160.140.0/22
 add list=novpn address=202.164.0.0/20
 add list=novpn address=202.164.25.0/24
+add list=novpn address=202.165.208.0/20
 add list=novpn address=202.168.160.0/19
 add list=novpn address=202.170.128.0/19
 add list=novpn address=202.170.216.0/21
