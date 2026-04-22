@@ -1071,6 +1071,7 @@ add list=ctcc_ipv6 address=2402:840:e000::/46
 add list=ctcc_ipv6 address=2402:840:f000::/38
 add list=ctcc_ipv6 address=2402:1440::/32
 add list=ctcc_ipv6 address=2402:2620::/48
+add list=ctcc_ipv6 address=2402:2e60::/39
 add list=ctcc_ipv6 address=2402:34e0::/32
 add list=ctcc_ipv6 address=2402:3c00::/32
 add list=ctcc_ipv6 address=2402:3f80:1400::/40
@@ -1609,7 +1610,6 @@ add list=ctcc_ipv6 address=2a0f:6284:4c60::/44
 add list=ctcc_ipv6 address=2a0f:6284:4c80::/43
 add list=ctcc_ipv6 address=2a0f:6284:4ca0::/44
 add list=ctcc_ipv6 address=2a0f:6284:4cd0::/44
-add list=ctcc_ipv6 address=2a0f:7803:f891::/48
 add list=ctcc_ipv6 address=2a0f:7803:fc00::/39
 add list=ctcc_ipv6 address=2a0f:85c1:bfe::/48
 add list=ctcc_ipv6 address=2a0f:9400:6110::/48
