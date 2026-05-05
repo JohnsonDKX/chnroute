@@ -5345,6 +5345,7 @@ add list=dpbr-CT address=156.107.170.0/24
 add list=dpbr-CT address=156.107.179.0/24
 add list=dpbr-CT address=156.107.181.0/24
 add list=dpbr-CT address=156.237.104.0/23
+add list=dpbr-CT address=157.10.34.0/24
 add list=dpbr-CT address=157.10.112.0/23
 add list=dpbr-CT address=157.15.94.0/23
 add list=dpbr-CT address=157.119.252.0/22
