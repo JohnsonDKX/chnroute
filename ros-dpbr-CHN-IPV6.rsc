@@ -1381,6 +1381,7 @@ add list=novpn_ipv6 address=2804:1e48:9001::/48
 add list=novpn_ipv6 address=2804:1e48:9002::/48
 add list=novpn_ipv6 address=2a01:e281:a400::/48
 add list=novpn_ipv6 address=2a01:e281:a410::/44
+add list=novpn_ipv6 address=2a01:f100:1f8::/48
 add list=novpn_ipv6 address=2a04:3e00:1002::/48
 add list=novpn_ipv6 address=2a04:f580:8010::/47
 add list=novpn_ipv6 address=2a04:f580:8090::/48
